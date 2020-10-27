@@ -1,7 +1,19 @@
 body {
-
+	width: 100%;
+}
+h1{
+	text-align: center
 }
 
+.contact-us p{
+  border: thin solid;
+  width: 800px;
+  text-align: left;
+}
+
+.createAccountsBody{
+	text-align: center;
+}
 .logo{
   display: block;
   margin-left: auto;
@@ -93,6 +105,7 @@ body {
   padding: 12px;
   text-decoration: none;
   border-left: 2px solid black;
+  overflow: hidden;
 }
 
 .category-menu a:hover {
@@ -116,6 +129,7 @@ body {
   padding: 12px;
   text-decoration: none;
   border-left: 2px solid black;
+  overflow: hidden;
 }
 
 .blogroll a:hover{
@@ -126,26 +140,126 @@ body {
   background-color: #4CAF50;
   color: white;
 }
+.pic-description{
+	padding: 10px;
+}
 
 .pic-description img{
-  width: 30%;
+  position: relative;
+  width: 500px;
   margin-top: 50px;
   margin-left: 100px;
   float: left;
 }
 
-
-.pic-description h2{
-height: 70px;
-width: 80%;
-margin-left: 600px;
-margin-top: 50px;
+.pic-description p{
+	position: relative;
+  	height: 600px;
+ 	width: 30%;
+ 	float:left;
+  	font-size: 20px;
+	padding-left: 20px;
 }
 
 
-.pic-description p{
-  height: 600px;
-  width: 600px;
-  margin-left: 600px;
-  font-size: 20px;
+.regSubmitButton{
+	background-color: #e9e9e9;
+	color: black;
+	margin-top: 7px;
+	padding: 8px;
+}
+.regSubmitButton:hover{
+	background-color: #ddd;
+  	color: black;
+	padding: 10px;
+}
+
+.adminInfo{
+	position: absolute;
+	margin-top: 500px;
+	left: 2%;
+}
+
+.like-history{
+	position: absolute;
+	margin-top: 500px;
+	left: 2%;
+}
+
+
+.adminList{
+	margin-left: 50px;
+	height: 600px;
+	overflow: scroll;
+}
+
+.adminList ul{
+	 list-style-type: none;
+}
+.adminList img{
+	width: 300px;
+	height: 150px;
+}
+
+.adminList li{
+	display: inline;
+}
+
+
+.like-history-list{
+  margin-left: 50px;
+  height: 500px;
+  overflow: scroll;
+}
+
+.like-history-list ul{
+  list-style-type: none;
+}
+
+
+.like-history-list img{
+  width: 300px;
+	height: 200px;
+}
+
+.like-history-list li{
+  display: inline;
+}
+
+.adminName{
+	font-size: 30px;
+	margin-left: 40px;
+}
+
+
+
+.adminDiscr{
+	border:thin solid;
+	display:inline-block;
+	margin-left: 80px;
+	vertical-align: middle;
+	width: 600px;
+}
+
+.like-description{
+  border: thin solid;
+  display: inline-block;
+  margin-left: 40px;
+  width: 500px;
+}
+
+
+
+.AboutFooter{
+	border-top: solid thin;
+	border-color: black;
+	margin-top: 1150px;
+	padding: 20px;
+	text-align: center;
+}
+
+.AboutFooter a{
+	padding: 20px;
+	font-size: 20px;
+
 }
