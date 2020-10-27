@@ -4,27 +4,22 @@ CIS 444 Class Project
 Hello this is the README.md for our CIS Project.... READ IT!!!
 
 # Responsibilities:
-HomePage: Yuvi 
-
+HomePage: Paul
 
 Login Page: Paul
-
-Sign-In Page (User): Paul
-
-Sign-In Page (Admin): Paul
 
 
 User Profile: Antowyn
 
 Admin Profile: Antowyn
 
+Contact Us: Antowyn
 
-About Us: Chris
 
-Contact Us: Chris
+Document Revision: Chris
 
-Wireframes: Chris
 
+About Us: Tyler
 
 Create Account (User): Tyler
 
